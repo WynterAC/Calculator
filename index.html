@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styleSheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="src/calc.js"></script>
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <h1>Grade Calculator</h1>
+    <table>
+      <tr>
+        <th>Module</th>
+        <th>Weight</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <th>ISAD351/T1</th>
+        <th>15</th>
+        <th id="put">
+          <input type="number" name="quantity" min="0" max="100" id="351T1" />
+        </th>
+      </tr>
+      <tr>
+        <th>ISAD351/C1</th>
+        <th>45</th>
+        <th id="put">
+          <input type="number" name="quantity" min="0" max="100" id="351C1" />
+        </th>
+      </tr>
+      <tr>
+        <th>ISAD351/E1</th>
+        <th>40</th>
+        <th id="put">
+          <input type="number" name="quantity" min="0" max="100" id="351E1" />
+        </th>
+      </tr>
+      <tr>
+        <th>SOFT352/T1</th>
+        <th>10</th>
+        <th id="put">
+          <input type="number" name="quantity" min="0" max="100" id="352T1" />
+        </th>
+      </tr>
+      <tr>
+        <th>SOFT352/C1</th>
+        <th>90</th>
+        <th id="put">
+          <input type="number" name="quantity" min="0" max="100" id="352C1" />
+        </th>
+      </tr>
+    </table>
+
+    <h3>Overall grade:</h3>
+    <button class="submit" onclick="save()">Submit</button>
+  </body>
+</html>

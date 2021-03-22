@@ -1,0 +1,19 @@
+.submit {
+  font-weight: 700;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+td,
+th {
+  border: 1px solid #202020;
+  padding: 8px;
+}
